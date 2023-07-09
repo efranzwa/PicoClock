@@ -15,7 +15,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install pylint
           sudo apt-get install git
-          git clone https://github.com/peterhinch/micropython-nano-gui
+          git clone https://github.com/peterhinch/micropython-nano-gui.git
       - name: Analyze code with Pylint
         run:
           pylint src/*.py
