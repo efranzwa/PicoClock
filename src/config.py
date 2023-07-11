@@ -1,3 +1,7 @@
+'''
+config.py
+configuration variables
+'''
 cfg = {
     "wlan": {
         "ssid" : "my-wifi-ssid",
